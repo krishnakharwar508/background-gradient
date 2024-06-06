@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+}
+
+section{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+
+    display: grid;
+    place-items: center;
+    
+}
+
+section div button{
+    padding: 10px 40px 12px 40px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
+
+ button#but1{
+    background-color: #051937;
+    color: #fff;
+    margin-right: 10px;
+}
+
+ button#but2{
+    background-color: #a7eb11;
+    color: #000;
+    margin-left: 10px;
+}
+
+ h2{
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.copy-code{
+    margin-top: 30px;
+    width: 300px;
+    color: #fff;
+    font-size: 16px;
+    
+    border-left: #ffffff solid 3px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05); /* White with 5% opacity */
+
+
+}
+
+
+
